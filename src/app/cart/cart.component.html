@@ -1,0 +1,10 @@
+<h1>Lista de usuarios Cart</h1>
+<div class="users-list" *ngIf="userList" >
+  <ul >
+
+    <li *ngFor="let item of userList">
+      <img [src]="item.avatar" height="70" >
+      {{ item.first_name }}
+    </li>
+  </ul>
+</div>

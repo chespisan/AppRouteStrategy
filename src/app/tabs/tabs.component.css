@@ -1,0 +1,28 @@
+.tabs {
+  border: solid thin black;
+  width: 90%;
+  padding: 1rem;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  color: white;
+  margin: auto;
+}
+
+.footer-tabs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer-tabs li {
+  list-style: none;
+
+}
+.footer-tabs li a {
+  color: white;
+  text-decoration: none;
+}
+
